@@ -5,9 +5,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "https://todo-app-i8l3.onrender.com")
 @RestController
-@RequestMapping("/api/todos")
-@CrossOrigin(origins = "http://127.0.0.1:55216") // Change to match your frontend URL
+@RequestMapping("/")
+
 public class Controller {
 
     @Autowired
